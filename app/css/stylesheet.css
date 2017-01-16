@@ -32,6 +32,59 @@
 
 /*FONTS*/
 
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #fed136;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
 .playfair-font {
     font-family: 'Playfair Display', serif;
 }
@@ -42,10 +95,6 @@
 
 .open-sans-font {
     font-family: 'Open Sans', sans-serif;
-}
-
-p {
-    font-family: 'Fauna One', serif;
 }
 
 
@@ -83,10 +132,9 @@ p {
     font-size: 14px;
 }
 
-h1::first-letter { 
+/*h1::first-letter {
     font-size: 125%;
-}
-
+}*/
 
 /*COLORS - Pallette from https://color.adobe.com/28X-Presidential-Poster-color-theme-7962511*/
 
@@ -118,8 +166,54 @@ h1::first-letter {
     background-color: #ffffff;
 }
 
+/*** FLEXBOX ***/
+/* via https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/ */
+
+.flexbox {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.aligner {
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+
+.flexbox > div {
+	width: 50%;
+	padding: 10px;
+}
+
+.flexbox > div:first-child {
+	margin-right: 20px;
+}
 
 /*MAIN SECTION*/
+
+header {
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/hero.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 600px;
+}
+
+h1.title {
+    text-transform: uppercase;
+    font-size: 5em;
+}
 
 .seal {
     margin: 20px;
@@ -142,14 +236,114 @@ h1::first-letter {
 }
 
 .footer {
-    height: 60px;
+    height: 80px;
     width: 100%;
+    margin-top:
 }
 
 .pointer {
         cursor: pointer;
 }
 
+/*** BUTTON CENTRAL ***/
+.button {
+  padding: .5em 10%;
+  margin: .5em;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+/*** HERO ***/
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-logo {
+  max-width: 150px;
+  margin-top: -2em;
+}
+
+/*** ALL SECTIONS ***/
+
+section {
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.divider {
+  height: 10px;
+}
+
+/*** INTRO ***/
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 0 2em;
+  color: #70959E;
+  line-height: 1.2em;
+  padding: 1em;
+}
+
+.intro-text h3 {
+  color: #fff;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.cta-box {
+  margin: 0 10em;
+}
+
+.cta-box p {
+  margin-bottom: 2em;
+}
+
+.fa {
+  color: #2980b9;
+  margin: .2em 0 .3em;
+}
+
+/*** NEWSLETTER ***/
+
+.newsletter-text h3 {
+  color: #fff;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+input#mce-EMAIL {
+    background-color: #f8f8f8;
+    width: 30%;
+    margin: 1em;
+    padding: .5em;
+}
+
+input#mc-embedded-subscribe {
+    color: white;
+}
+
+/*** TEAM ***/
+.team-text h3 {
+  color: #fff;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.team-text p {
+  margin-bottom: 2em;
+}
+
+section.team {
+  padding-bottom: 5em;
+}
+
+/*** SOCIAL ***/
+
+.social i {
+  margin: .15em;
+}
 
 /*CUSTOM TWEET BUTTON*/
 
@@ -611,4 +805,3 @@ p {
 .no-bottom-margin {
     margin-bottom: 0;
 }
-

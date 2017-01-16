@@ -15,7 +15,7 @@
       <script src="bower_components/angular-animate/angular-animate.js"></script>
       <script src="bower_components/angular-touch/angular-touch.min.js"></script>
       <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-      
+
       <!-- Dependencies -->
       <script src="bower_components/ng-lodash/build/ng-lodash.js"></script>
       <script src="bower_components/ng-twitter-api/dist/ng-twitter-api.min.js"></script>
@@ -26,13 +26,89 @@
       <script src="app/root/root_services.js"></script>
       <script src="app/root/confirm.js"></script>
 
+      <!-- Styling -->
+      <script src="https://use.fontawesome.com/f3ca7e97d2.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
+
   </head>
 
   <body ng-controller="appCtrl">
     <div class="custom-container" ng-controller="rootController">
       <ui-view></ui-view>
     </div>
-    <div class="footer dark-blue"></div>
+    <header class="hero flexbox aligner">
+      <div class="hero-text aligner-item">
+        <img class="hero-logo" src="app/img/logo.svg"/>
+        <h1 class="title">healthcare saves lives</h1>
+      </div>
+    </header>
+    <div class="divider light-blue"></div>
+
+    <section class="intro white">
+      <div class="intro-text align-center">
+        <!-- <h2>Will you lose your healthcare without the ACA?</h2> -->
+        <p class="fauna-font subtitle">20 million Americans will lose their healthcare if the Affordable Care Act is repealed.</p>
+        <!-- <p>20 million Americans will lose their healthcare if the Affordable Care Act is repealed. What's your story?</p> -->
+        <h3 class="red">What's Your Story?</h3>
+      </div>
+      <div class="flexbox align-center">
+        <div class="cta-box">
+          <i class="fa fa-video-camera fa-4x" aria-hidden="true"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <a href="#" class="red button aligner-item">Submit Your Video</a>
+        </div>
+        <div class="cta-box">
+          <i class="fa fa-phone fa-4x" aria-hidden="true"></i>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="#" class="red button aligner-item">Share Your Story</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-text align-center">
+      <h3 class="blue">Get Updated on Our Progress</h3>
+
+      <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//iwilldie.us14.list-manage.com/subscribe/post?u=3e4e7c8450d8aa153d751257e&amp;id=e0bcac60ec" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3e4e7c8450d8aa153d751257e_e0bcac60ec" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button blue"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="team-text align-center">
+      <h3 class="red">Join the Team</h3>
+      <p>Are you ready to fight for the ACA? Join our team of designers, developers, writers, strategists, and more on <b>Slack</b>.</p>
+      <a href="https://iwilldieacawebsite.slack.com/shared_invite/MTI4NDk5NTg5NjIzLTE0ODQ1MDcxMDctNjA4M2M1YWUyNQ" target="_blank" class="button red aligner-item">Join the Discussion</a>
+    </section>
+
+    <footer class="footer dark-blue flexbox aligner">
+      <div class="social aligner-item align-center">
+        <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+      </div>
+    </footer>
+
   </body>
 
 </html>
