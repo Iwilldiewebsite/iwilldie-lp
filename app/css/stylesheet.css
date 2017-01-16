@@ -258,7 +258,7 @@ header {
 h1.title {
     font-size: 8em;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px #999;
+    text-shadow: 2px 2px #999;
 }
 
 .hero-text.aligner-item {
