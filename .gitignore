@@ -1,0 +1,13 @@
+# Dependecy Folders #
+######################
+bower_components/
+node_modules/
+
+# Secrets File #
+######################
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?

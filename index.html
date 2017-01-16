@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html ng-app="app">
+
+  <head>
+      <title>TITLE GOES HERE</title>
+      <!-- Stylesheets -->
+      <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" type="text/css" href="app/css/stylesheet.css">
+
+      <!-- Frameworks -->
+      <script src="bower_components/angular/angular.min.js"></script>
+      <script src="bower_components/angular-route/angular-route.js"></script>
+      <script src="bower_components/angular-animate/angular-animate.js"></script>
+      <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+      
+      <!-- Dependencies -->
+      <script src="bower_components/ng-lodash/build/ng-lodash.js"></script>
+      <script src="bower_components/ng-twitter-api/dist/ng-twitter-api.min.js"></script>
+      <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+      <!-- Working Files -->
+      <script src="app/app.js"></script>
+      <script src="app/root/root_ctrl.js"></script>
+      <script src="app/root/root_services.js"></script>
+      <script src="app/root/confirm.js"></script>
+
+  </head>
+
+  <body ng-controller="appCtrl">
+    <div class="custom-container" ng-controller="rootController">
+      <ui-view></ui-view>
+    </div>
+    <div class="footer dark-blue"></div>
+  </body>
+
+</html>
