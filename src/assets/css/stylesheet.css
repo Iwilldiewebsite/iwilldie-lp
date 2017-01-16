@@ -121,7 +121,7 @@ h6 {
 }
 
 .red-text {
-  color: #B51F1F;
+    color: #B51F1F;
 }
 
 .small-font {
@@ -174,27 +174,27 @@ h6 {
 /* via https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/ */
 
 .flexbox {
-	display: -ms-flex;
-	display: -webkit-flex;
-	display: flex;
+    //display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
 }
 
 .aligner {
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .aligner-item {
-  max-width: 50%;
+    max-width: 50%;
 }
 
 .flexbox > div {
-	width: 50%;
-	padding: 10px;
+    width: 50%;
+    padding: 10px;
 }
 
 .flexbox > div:first-child {
-	margin-right: 20px;
+    margin-right: 20px;
 }
 
 /*MAIN SECTION*/
@@ -216,26 +216,26 @@ h6 {
 
 .text-area {
     height: 75px;
-    ;
+;
     overflow: visible;
 }
 
 .footer {
     height: 80px;
     width: 100%;
-    margin-top:
+    margin-top:0;
 }
 
 .pointer {
-        cursor: pointer;
+    cursor: pointer;
 }
 
 /*** BUTTON CENTRAL ***/
 .button {
-  padding: .5em 10%;
-  margin: .5em;
-  border-radius: 4px;
-  border: 1px solid #eee;
+    padding: .5em 10%;
+    margin: .5em;
+    border-radius: 4px;
+    border: 1px solid #eee;
 }
 
 /*** HERO ***/
@@ -262,33 +262,33 @@ h1.title {
 }
 
 .hero-text.aligner-item {
-  width: 80%;
+    width: 80%;
 }
 
 .hero-logo {
-  max-width: 250px;
-  margin-top: -2em;
+    max-width: 250px;
+    margin-top: -2em;
 }
 
 /*** ALL SECTIONS ***/
 
 section {
-  padding: 20px 0;
-  background-color: #fff;
+    padding: 20px 0;
+    background-color: #fff;
 }
 
 .divider {
-  height: 10px;
+    height: 10px;
 }
 
 /*** INTRO ***/
 
 .subtitle {
-  font-size: 2.5em;
-  margin: 0 2em;
-  color: #fff;
-  line-height: 1.5em;
-  padding: 1em;
+    font-size: 2.5em;
+    margin: 0 2em;
+    color: #fff;
+    line-height: 1.5em;
+    padding: 1em;
 }
 
 span.emphasis {
@@ -297,55 +297,55 @@ span.emphasis {
 }
 
 .intro-img {
-  height: 500px;
-  background-color: #fff;
-  background-image: url(../img/intro.jpg);
-  background-size: cover;
-  background-position: center;
+    height: 500px;
+    background-color: #fff;
+    background-image: url(../img/intro.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .intro-title {
-  text-transform: uppercase;
-  font-size: 2.5em;
-  margin: 1em 2em;
-  color: #000;
-  line-height: 1.2em;
-  padding: 1em;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 1em 2em;
+    color: #000;
+    line-height: 1.2em;
+    padding: 1em;
 }
 
 .intro-text h3 {
-  color: #fff;
-  padding: 1em;
-  margin: 1em 0;
+    color: #fff;
+    padding: 1em;
+    margin: 1em 0;
 }
 
 /*** CTA ***/
 
 .cta h3 {
-  color: #fff;
-  padding: 1em;
-  margin: 1em 0;
+    color: #fff;
+    padding: 1em;
+    margin: 1em 0;
 }
 
 .cta-box {
-  margin: 0 10em;
+    margin: 0 10em;
 }
 
 .cta-box p {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .fa {
-  color: #2980b9;
-  margin: .2em 0 .3em;
+    color: #2980b9;
+    margin: .2em 0 .3em;
 }
 
 /*** NEWSLETTER ***/
 
 .newsletter-text h3 {
-  color: #fff;
-  padding: 1em;
-  margin: 1em 0;
+    color: #fff;
+    padding: 1em;
+    margin: 1em 0;
 }
 
 input#mce-EMAIL {
@@ -361,23 +361,23 @@ input#mc-embedded-subscribe {
 
 /*** TEAM ***/
 .team-text h3 {
-  color: #fff;
-  padding: 1em;
-  margin: 1em 0;
+    color: #fff;
+    padding: 1em;
+    margin: 1em 0;
 }
 
 .team-text p {
-  margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 section.team {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 /*** SOCIAL ***/
 
 .social i {
-  margin: .15em;
+    margin: .15em;
 }
 
 /*CUSTOM TWEET BUTTON*/
@@ -688,9 +688,9 @@ p {
 }
 
 // MARGINS
-.margin-tiny {
-    margin: 3px;
-}
+   .margin-tiny {
+       margin: 3px;
+   }
 
 .margin-small {
     margin: 5px;
