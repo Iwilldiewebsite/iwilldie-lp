@@ -1,0 +1,33 @@
+{
+  "name": "coc",
+  "authors": [
+    "Daniel dela1000@gmail.com"
+  ],
+  "description": "coc",
+  "main": "index.html",
+  "keywords": [
+    "coc",
+    "congress",
+    "contact"
+  ],
+  "license": "MIT",
+  "homepage": "countoncongress.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-twitter-api": "^0.1.5",
+    "angular-route": "^1.6.1",
+    "angular-ui-router": "^0.3.2",
+    "lodash": "^4.17.4",
+    "ng-lodash": "^0.5.0",
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-touch": "^1.6.1",
+    "angular-bootstrap": "^2.4.0"
+  }
+}
