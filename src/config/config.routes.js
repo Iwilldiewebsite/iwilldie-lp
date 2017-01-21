@@ -22,6 +22,21 @@
                 url: '/landing',
                 template: '<landing></landing>'
             })
+            .state('aboutPage', {
+                parent: 'pageFrame',
+                url: '/about',
+                template: '<about></about>'
+            })
+            .state('videosPage', {
+                parent: 'pageFrame',
+                url: '/videos',
+                template: '<videos></videos>'
+            })
+            .state('submissionsPage', {
+                parent: 'pageFrame',
+                url: '/submissions',
+                template: '<submissions></submissions>'
+            })
     }
 
 })();

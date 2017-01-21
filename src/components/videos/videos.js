@@ -2,8 +2,8 @@
     'use strict';
 
     angular
-        .module('app.components.landing')
-        .component('landing', getComponentObject());
+        .module('app.components.videos')
+        .component('videos', getComponentObject());
 
     /**
      * @name getComponentObject
@@ -17,12 +17,12 @@
         return {
             controllerAs: 'vm',
             bindings: {},
-            templateUrl: "components/landing/landing.html",
-            controller: ('landing', landingPage)
+            templateUrl: "components/videos/videos.html",
+            controller: ('videos', videosPage)
         }
     }
 
-    landingPage.$inject = [
+    videosPage.$inject = [
         '$scope',
         '$state',
         '$rootScope'
@@ -30,11 +30,11 @@
 
     /**
      * @description The template Controller which deals with all controller-view interactions in
-     * the landing page.
+     * the videos page.
      * @returns {void} Nothing
      * @constructor
      */
-    function landingPage($scope, $state, $rootScope) {
+    function videosPage($scope, $state, $rootScope) {
         var vm = this;
     }
 })();
